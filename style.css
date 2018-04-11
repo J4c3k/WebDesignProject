@@ -1,0 +1,171 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	/*background-color:#930;*/
+	background-image:url(images/mjQqdws.jpg);
+}
+
+#header{
+	width:70%;
+	min-width:650px;
+	height:110px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#FFF;
+	font-family:"Comic Sans MS", cursive;
+	font-size:30px;
+	text-align:center;
+	clear:both;
+	
+}
+
+#outer{
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+	min-width:900px;
+	/*background-color:#0C9;*/
+	background-image:url(images/satyna3.jpg);
+}
+
+#logo{
+	float:left;
+}
+
+#header_text{
+	padding-top:10px;
+	
+}
+
+#navigation{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:25px;
+	
+	background-color:#FFF;
+	height:30px;
+	width:600px;
+	
+	font-family:"Comic Sans MS", cursive;
+	font-size:18px;
+	display:           block;
+	text-align:center;
+	
+	
+}
+
+#navigation a {
+	
+	text-decoration:   none;
+	/*text-align:        left;*/
+	padding-right:20px;
+	color:#00F;
+	
+}
+
+#navigation a:hover{
+	color:#F30;
+	
+}
+
+#menu_sidebar h2{
+	font-family:"Comic Sans MS", cursive;
+	color:#D90000;
+	background-color:#E3E3E3;
+	
+}
+
+
+
+#menu_sidebar{
+	position:fixed;
+	width:150px;
+	background-color:#FFF;
+	margin-top:50px;
+	text-align:center;
+}
+
+#menu_sidebar li {
+	list-style:none;
+	font-family:"Comic Sans MS", cursive;
+	font-size:22px;
+	
+}
+
+#menu_sidebar a {
+	text-decoration:   none;
+	color:#00F;
+ }
+	 
+#menu_sidebar a:hover{
+	color:#F30;
+	
+}
+
+#order_summary_sidebar{
+	position:fixed;
+	width:150px;
+	margin-left:700px;
+	margin-top:-4677px;
+	background-color:#FFF;
+	width:200px;
+	list-style:none;
+	font-family:"Comic Sans MS", cursive;
+	font-size:22px;
+}
+
+#order_summary_sidebar h2{
+	text-align:center;
+	background-color:#E3E3E3;
+	font-family:"Comic Sans MS", cursive;
+	color:#D90000;
+	font-size:22px;
+}
+
+#order_summary_sidebar li {
+	list-style:none;
+	font-family:"Comic Sans MS", cursive;
+	font-size:22px;
+	color:#00F;
+	
+}
+
+#main_content h2{
+	text-align:center;
+	background-color:#E3E3E3;
+	font-family:"Comic Sans MS", cursive;
+	color:#D90000;
+}
+
+#main_content {
+	position:relative;
+	left:155px;
+	top:35px;
+	width:510px;
+	background-color:#FFF;
+	margin-left:15px;
+	margin-top:15px;
+}
+
+.food_picture {
+	float:left;
+	padding-right:15px;
+	padding-top:8px;
+}
+
+#main_content .food_title{
+	
+	padding:10px;
+	
+}
+
+.add_to_basket{
+	padding-top:30px;
+	padding-left:10px;
+	padding-right:20px;
+	float:right;
+}
