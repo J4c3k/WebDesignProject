@@ -8,9 +8,7 @@ J Smolen
 
 
 function addProduct(name){
-	array[array.length]=name;
-	for (i = 0; i < array.length; i++) {
-    	text = "<li>" + array[i] + "</li>";
-	}
-	document.getElementById("list").innerHTML = text;
+
+	document.getElementById("list").innerHTML = name;
 }
+
